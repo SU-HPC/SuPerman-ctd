@@ -1,0 +1,55 @@
+**command: ./gpu_perman -f erdos_real/32_0.90_2.mtx -p35 -k4 -e118 
+*~~~~~~~~~~~~FLAGS~~~~~~~~~~~~*
+- cpu: 0
+- gpu: 1
+- sparse: 0
+- dense: 1
+- exact: 1
+- approximation: 0
+- calculation half-precision: 0
+- calculation quad-precision: 0
+- storage half-precision: 0
+- storage quad-precision: 0
+- binary graph: 0
+- grid_graph: 0
+- gridm: -1
+- gridn: -1
+- perman_algo: 35
+- threads: 1
+- scale_intervals: 4
+- scale_times: 5
+- fname: erdos_real/32_0.90_2.mtx 
+- type: double
+- no rep.: 4
+- preprocessing: 0
+- gpu_num: 1
+- number_of_times: 100000
+- grid_dim: 64
+- block_dim: 64
+- device_id: 0
+- grid_multip: 118
+- compression: 0
+- scaling_threshold: -1
+- sync_gray: 0
+- hostname: dolap
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+==SC== Shared memory per block is set to : 8192 
+==SC== Grid dim is set to : 80 
+==SC== Block dim is set to : 384 
+==SC== Grid dim is re-set to : 118 
+Result || gpu_perman_xregister_coalescing_plainmatrix_mshared | erdos_real/32_0.90_2.mtx | 3.1823893606376774e+46 in 0.115357 
+==SC== Shared memory per block is set to : 8192 
+==SC== Grid dim is set to : 80 
+==SC== Block dim is set to : 384 
+==SC== Grid dim is re-set to : 118 
+Result || gpu_perman_xregister_coalescing_plainmatrix_mshared | erdos_real/32_0.90_2.mtx | 3.1823893606376774e+46 in 0.110016 
+==SC== Shared memory per block is set to : 8192 
+==SC== Grid dim is set to : 80 
+==SC== Block dim is set to : 384 
+==SC== Grid dim is re-set to : 118 
+Result || gpu_perman_xregister_coalescing_plainmatrix_mshared | erdos_real/32_0.90_2.mtx | 3.1823893606376774e+46 in 0.100903 
+==SC== Shared memory per block is set to : 8192 
+==SC== Grid dim is set to : 80 
+==SC== Block dim is set to : 384 
+==SC== Grid dim is re-set to : 118 
+Result || gpu_perman_xregister_coalescing_plainmatrix_mshared | erdos_real/32_0.90_2.mtx | 3.1823893606376774e+46 in 0.097859 
